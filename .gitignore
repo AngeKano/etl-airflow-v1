@@ -1,0 +1,36 @@
+# Données
+data/input/*
+data/output/*
+!data/input/.gitkeep
+!data/output/.gitkeep
+
+# Logs Airflow
+logs/*
+!logs/.gitkeep
+
+# Plugins
+plugins/*
+!plugins/.gitkeep
+
+# Variables d'environnement
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Docker
+.docker/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
